@@ -18,3 +18,4 @@ class Mahasiswa extends Model
     protected $updatedField  = 'updated_at';
 
 }
+

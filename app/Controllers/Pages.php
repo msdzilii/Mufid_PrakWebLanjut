@@ -2,11 +2,14 @@
 
 namespace App\Controllers;
 
+use App\Controllers\BaseController;
+use App\Models\Mahasiswa;
+
 class Pages extends BaseController
 {
     public function index()
     {
-        return view('pages');
+        return view('index');
     }
 
     public function view($page = 'home')

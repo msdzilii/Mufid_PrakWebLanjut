@@ -21,12 +21,6 @@ class Mahasiswa extends Seeder
                 'nama'    => 'Kayla Atsila Ivanka',
                 'alamat' => 'Palembang',
                 'created_at' =>Time :: now(),
-            ],
-            [
-                'npm' => '2017051035',
-                'nama'    => 'Irfan Saputra',
-                'alamat' => 'Terbanggi Besar',
-                'created_at' =>Time :: now(),
             ]
         ];
 
